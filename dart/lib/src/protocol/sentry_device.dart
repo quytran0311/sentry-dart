@@ -98,10 +98,10 @@ class SentryDevice {
   final String? screenResolution;
 
   /// The screen height in pixels. (e.g.: `600`, `1080`).
-  final int? screenHeightPixels;
+  final double? screenHeightPixels;
 
   /// The screen width in pixels. (e.g.: `800`, `1920`).
-  final int? screenWidthPixels;
+  final double? screenWidthPixels;
 
   /// A floating point denoting the screen density.
   final double? screenDensity;
@@ -387,8 +387,8 @@ class SentryDevice {
     String? manufacturer,
     String? brand,
     String? screenResolution,
-    int? screenHeightPixels,
-    int? screenWidthPixels,
+    double? screenHeightPixels,
+    double? screenWidthPixels,
     double? screenDensity,
     int? screenDpi,
     bool? online,
